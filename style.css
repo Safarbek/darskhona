@@ -1,0 +1,24 @@
+body{
+    background: rgb(0, 128, 96);
+}
+div{
+    background: rgba(72, 255, 0, 0.76);
+    padding: 30px;
+}
+div ul {
+    display: flex;
+}
+div ul li{
+    padding: 10px;
+    margin : 5px;
+    list-style: none;
+    border: red solid 2px;
+    min-width: 100px;
+
+}
+div ul li a {
+    color: white;
+    padding: 4px;
+    text-decoration: none   ;
+    font-size: 23px;
+}
