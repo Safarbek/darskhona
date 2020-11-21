@@ -17,7 +17,7 @@
     flex-wrap: wrap;
 }
 
-.footer .main .menu a{
+.footer .main .menu a, .footer .main .sosials a{
     color: rgb(202, 202, 202);
     text-decoration: none;
 }
