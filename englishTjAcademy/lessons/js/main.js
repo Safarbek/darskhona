@@ -34,7 +34,7 @@ navSlide()
 
 // Show pronoun sentences test
 
-var showPron  = document.querySelector(".showPronounSent");
+var showPron  = document.querySelector(".showPronounSent")
 showPron.addEventListener("click", (e) => {
     var sent = document.querySelector('.sentenceWithP');
     if(sent.style.display == "none") {

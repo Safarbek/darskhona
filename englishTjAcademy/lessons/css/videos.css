@@ -1,0 +1,100 @@
+.contVideos{
+    max-width: 1100px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.contVideos h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(16, 55, 128);
+    margin-bottom: 20px;
+}
+.contVideos .video{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    height: auto;
+}
+
+.contVideos .video h2{
+    margin: 5px 10px;
+    font-size: 30px;
+    color: #ab3275;
+}
+.contVideos .video p{
+    max-width: 80%;
+    color: rgb(7, 59, 61);
+    margin: auto;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contVideos iframe{
+    align-items: center;
+    width: 80%;
+    height: 400px;
+}
+
+.contVideos .video .likes{
+    max-width: 80%;
+    margin: 10px auto 20px;
+    text-align: left;
+    display: flex;
+    align-items: center
+;}
+
+.contVideos .video .likes i, span{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.contVideos .video .likes a{
+    text-decoration: none;
+    font-weight: 900;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background: rgb(235, 165, 165);
+    border-radius: 6px;
+    margin-left: 10px;
+    color: black;
+}
+.contVideos .video .likes a i{
+    color: red;
+}
+
+
+.contVideos .video .likes a:hover{
+
+    transition: 1s ease;
+    background:lightblue;
+}
+
+@media (max-width: 800px){
+    .contVideos{
+        padding: 3px;
+        max-width: 100%;
+    }
+    .contVideos h1{
+        font-size: 25px;
+    }
+    .contVideos iframe{
+        width: 100%;
+        height: 280px;
+    }
+    .contVideos .video h2{
+        font-size: 20px;
+    }
+
+    .contVideos .video p{
+        max-width: 100%;
+        font-size: 18px;
+    }
+    .contVideos .video .likes {
+    max-width: 100%;
+
+    }
+}

@@ -1,4 +1,5 @@
-import { questions } from "./tests.js";
+import { questionsEn as questionEn} from "./tests_en.js";
+import { questionsRu as questionRu, questionsRu} from "./tests_ru.js";
 
 const navSlide = () => {
     const burger = document.querySelector(".burger");
@@ -13,7 +14,7 @@ const navSlide = () => {
         list.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = ''
-                return ''
+                return '';
             }
             link.style.animation = `navLink 0.5s ease forwards ${index / 7 + 1.2}s`;
         })
@@ -42,9 +43,27 @@ var demoChek = document.getElementById('demoChek');
 // Massege for buttons
 var massege = document.querySelector('.massege');
 
+//Choose div demo
+var demoChoose = document.querySelector('.chooseTest');
+//Show answer button
+const showAnswerButton = document.getElementById('show');
+//Next question
+const nextQuestion = document.getElementById('nextQuestion');
+nextQuestion.disabled = true;
+//nex work button
+const newWorkButton = document.querySelector('#newWork')
+// New work
+const newTest = document.getElementById("newTest");
+
+//Tests variable 
+var questions;
 
 
-
+if(demoChoose.id == "english") {
+    questions = questionEn;
+} else if (demoChoose.id == "russian") {
+    questions = questionRu;
+}
 
 
 // class test for showing tests
@@ -162,18 +181,7 @@ beOkhirTest.onclick = beOkhir;
 const Tests = new Test();
 
 
-//Choose div demo
-var demoChoose = document.querySelector('.chooseTest');
-console.log(demoChoose);
-//Show answer button
-const showAnswerButton = document.getElementById('show');
-//Next question
-const nextQuestion = document.getElementById('nextQuestion');
-nextQuestion.disabled = true;
-//nex work button
-const newWorkButton = document.querySelector('#newWork')
-// New work
-const newTest = document.getElementById("newTest");
+
 newTest.onclick = (e) => {
     document.location = ''
 }

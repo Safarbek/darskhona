@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Slab', serif;
     box-sizing: border-box;
 }
 
 body{
     background-color: rgb(255, 255, 255);
-    overflow: hidden;
-
-
 }
 
 
@@ -65,88 +65,122 @@ nav{
 
 
 /* For animation section */
-.demoAlphabet{
-    height: 94vh;
-    position: relative;
-    overflow: hidden;
-    background: rgb(255, 255, 255);
-}
-.demoAlphabet .alphabet{
-    position: absolute;
-    font-size: 90px;
-    font-family: 'Noto Sans JP', sans-serif;
-    z-index: 0;
-    text-shadow: 1.5px 1.5px 4px black;
-    pointer-events: none;
-    animation: animae ease 7s infinite;
-}
 
 
 /* Дар бораи сайт */
 .description{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 20px;
     width: auto;
     z-index: 1;
     text-align: center;
     border-radius: 10px;
-
+    max-width: 70%;
+    margin: 20px auto;
 }
 .description h2{
-    font-size: 50px;
-    font-family: 'Playfair Display', serif;
+    font-size: 47px;
     letter-spacing: 2px;
-    color: rgb(21, 30, 31);
-    background: #fff;
-    line-height: 55px;
+    color: rgb(60, 76, 97);
+    line-height: 45px;
     margin-bottom: 15px;
-    text-shadow: 1px 2px 5px rgb(4, 7, 8);
 
 }
 .description span{
-    font-size: 30px;
-    color: rgb(21, 29, 26);
+    font-size: 28px;
+    color: rgb(62, 78, 99);
     font-weight: bold;
-    background: #fff;
-    font-family: 'Playfair Display', serif;
 }
 
 .description p{
-    font-size: 25px;
-    line-height: 3rem;
-    color: rgb(0, 0, 0);
+    font-size: 23px;
+    color: rgb(51, 64, 82);
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
-    background: #fff;
 }
 
 .description button{
-    padding: 20px 50px;
     font-size: 25px;
-    font-weight: 800;
-    background-color: #dbdbdb;
-    border: 1px solid rgb(150, 26, 26);
+    padding: 20px 50px;
+    background-color: #fcfcfc;
     cursor: pointer;
-    color: rgb(40, 158, 85);
+    color: rgb(0, 107, 107);
     margin-top: 15px;
     outline: none;
-    border: 2px solid rgb(107, 219, 3);
-    border-top-color: #11a099;
-    border-bottom-color: rgb(0, 255, 55);
-    border-left-color: aqua;
-    border-right-color: rgb(23, 119, 143);
-    transition: 1s ease-out;
+    box-shadow: 2px 2px 15px rgb(2, 170, 221);
+    border: 0.4px solid rgb(30, 126, 155);
+    border-radius: 5px;
+    transition: 0.5s ease-out;
 }
 .description button:hover{
-    border-top-color: #3a7471;
-    border-bottom-color: rgb(10, 37, 161);
-    border-left-color: rgb(255, 0, 212);
-    border-right-color: rgb(212, 105, 5);
+    box-shadow: 2px 2px 15px rgb(226, 10, 2);
+    background: #fff;
 }
 
+.sosial{
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.sosial h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(0, 135, 150);
+    background: #fff;
+   
+}
+
+.sosial .main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+}
+
+.sosial .main div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 240px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow:  2px 2px 15px rgb(206, 8, 8); 
+}
+
+.sosial .main div i{
+    font-size: 30px;
+}
+.sosial .main span{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    font-weight: bold;
+}
+
+.sosial .main .y{
+    background: rgb(161, 0, 0);
+}
+.sosial .main .in{
+    background: linear-gradient(30deg, red, rgb(173, 0, 136));
+}
+
+.sosial .main .y i{
+    color: rgb(255, 255, 255);
+}
+.sosial .main .in i{
+    color: rgb(196, 196, 196);
+}
+
+.sosial .main .y:hover i{
+    color: rgb(10, 9, 9);
+    transition: 0.4s ease;
+}
+
+.sosial .main .in:hover i{
+    transition: 0.4s ease;
+    color:  rgb(10, 9, 9);
+}
 
 
 .toggel .line1{
@@ -170,9 +204,7 @@ nav{
 }
 
 @media screen and (max-width: 768px){
-    body{
-        overflow: hidden;
-    }
+   
     .nav-links{
         position: absolute;
         left: 0;
@@ -201,6 +233,7 @@ nav{
     /* About site */
     .description{
         width: 100%;
+        max-width:100%;
     }  
 .description h2{
     font-size: 30px;
@@ -218,6 +251,11 @@ nav{
 .description button{
     font-size: 20px;
     padding: 10px 20px;
+}
+
+
+.sosial h2{
+    font-size: 25px;
 }
 
 }

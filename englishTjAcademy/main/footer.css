@@ -1,0 +1,76 @@
+
+
+
+.footer {
+    padding: 30px;
+    background: #018680;;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.footer .main{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer .main .menu a{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+.footer .main .menu a:hover{
+    color: rgb(243, 247, 15);
+    transition: 0.5s ;
+}
+
+.footer .main .menu li{
+    margin: 5px 0;
+    list-style: none;
+}
+.footer .main  .sosials{
+     width: 25%;
+}
+.footer .main  .sosials ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .main  .sosials ul i{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 5px;
+}
+.footer .main  .sosials ul i:hover{
+    font-weight: normal;
+    font-size: 26px;
+}
+.footer .main  .sosials ul i.y{
+    color: rgb(124, 0, 0);
+}
+
+.footer .main  .sosials ul i.in{
+    color: rgb(80, 0, 69);
+}
+
+.footer .main  .sosials ul i.vk{
+    color: rgb(0, 14, 95);
+}
+
+.footer .main  .sosials ul i.ok{
+    color: rgb(197, 118, 0);
+}
+
+
+
+@media screen and (max-width: 768px){
+    
+    .footer .main .menu a{
+        font-size: 15px;
+    }
+
+}

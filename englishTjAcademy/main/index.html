@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css?1">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?var=111">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://kit.fontawesome.com/33318d06aa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 
     <title>EnglishTjAcademy</title>
 </head>
+
 <body>
-    
+
     <nav>
         <div class="logo">
-            <img src="../img/logosite.jpg" alt=""> <h4>TjAcademy</h4>
+            <img src="../img/logo.png" alt="">
+            <h4>TjAcademy</h4>
         </div>
 
         <ul class="nav-links">
@@ -23,33 +31,82 @@
                 border: 1px rgb(211, 207, 7) solid;
                 border-radius: 4px;" href="">Саҳифаи аслӣ</a></li>
             <li><a href="../lessons/index.html">Англиси</a></li>
-            <li><a href="../lessons/exercise.html">Машқҳо</a></li>
-           
+            <li><a href="../lessons/exerciseRu.html">Машқҳои Руси</a></li>
+            <li><a href="../lessons/exerciseEn.html">Машқҳои Англиси</a></li>
+            <li><a href="../lessons/videos.html">Видеоҳо</a></li>
+
         </ul>
-   
+
         <div class="burger">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
-   
+
     </nav>
 
-    <section class="demoAlphabet">
-            <div class="description">
-                <h2>Cалом! Хуш омадед ба сайти Тоҷик Академия!</h2>
-                <span>Дар ин сайт шумо забони <span >Англиси</span>-ро меомузед.  </span>
-                <br><br>
-                <p>Дарсҳои мо аз грамматика, машҳкҳо ва тестҳо иборат мебошад.
-                     Умедворем ки ин дарсҳо барои шумо кумакрасон бошад!</p>
+    <div class="description">
+        <h2>Cалом! Хуш омадед ба сайти Тоҷик Академия!</h2>
+        <span>Дар ин сайт шумо забони <span>Англиси</span> ва Руси-ро меомузед. </span>
+        <br><br>
+        <p>Дарсҳои мо аз грамматика, машҳкҳо ва тестҳо иборат мебошад.
+            Умедворем ки ин дарсҳо барои шумо кумакрасон бошад!</p>
+        <br>
+        <button class="russianStart">Машқи Руси!</button>
+        <button class="englishStart">Машқи Англиси!</button>
+    </div>
 
-                <button class="startButton">Шуруъи дарс!</button>
+
+    <div class="sosial">
+        <h2>Дар шабакаҳои иҷтимоии мо обуна шавед!</h2>
+        <div class="main">
+            <div class="y">
+                <span>Мо дар Ютуб</span>
+                <i class="fab fa-youtube"></i>
             </div>
-           
-    </section>
-   
-    
+            <div class="in">
+                <span>Мо дар Инстаграм</span>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
 
-<script src="main.js?1"></script>
+
+    <section class="footer">
+
+        <div class="main">
+            
+        <div class="menu">
+            <ul>
+                <li><a href="">Саҳифаи асли</a></li>
+                <li><a href="../lessons/index.html">Англиси</a></li>
+                <li><a href="../lessons/exerciseEn.html">Машқи Англис</a></li>
+                <li><a href="../lessons/exerciseRu.html">Машқи Руси</a></li>
+            </ul>
+
+           
+        </div>
+      <div class="menu">
+        <ul>
+            <li><a href="../lessons/videos.html">Видеоҳо</a></li>
+            <li><a href="https://www.youtube.com/channel/UCgoPupJNkZPnAUPJvtPasdw">Мо дар Ютуб</a></li>
+            <li><a href="https://instagram.com/tojikacademy/">Мо дар Инстаграм</a></li>
+        </ul>
+      </div>
+        <div class="sosials">
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UCgoPupJNkZPnAUPJvtPasdw"><i class="fab fa-youtube y"></i></a></li>
+                <li><a href="https://instagram.com/tojikacademy/"><i class="fab fa-instagram in"></i></a></li>
+                <li><a href="#"><i class="fab fa-vk vk"></i></a></li>
+                <li><a href="#"><i class="fab fa-odnoklassniki-square ok"></i></a></li>
+            </ul>
+        </div>
+
+        </div>
+
+    </section>
+
+    <script src="main.js?var=1"></script>
 </body>
+
 </html>

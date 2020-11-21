@@ -1,4 +1,4 @@
-export const questions = [
+export const questionsEn = [
     {
         id: 1,
         type: "txt",

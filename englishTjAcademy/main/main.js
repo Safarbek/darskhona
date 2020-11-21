@@ -27,36 +27,24 @@ navSlide()
 
 // body animation
 
-var  alphabetLowerCase = ['a','b', 'c','d','e','f','g','h','i','j'
-                        ,'k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-var  alphabetUpperCase = alphabetLowerCase.join(' ').toLocaleUpperCase().split(" ");
-const alphabet = [...alphabetLowerCase, ...alphabetUpperCase];
-const colors = ['#0efddd', '#fd0e91', '#0efd22',
-                '#03fa93', '#fdd10e', '#ffa602', '#a1caff',
-                '#db0a95', "#000000", '#006d67', "#072927", '#c705a7']
-function createAlphabet() {
-    var span = document.createElement("span");
-    span.classList.add("alphabet");
-    var random = Math.floor(Math.random() * alphabet.length);
-    span.innerText = alphabet[random];
-    span.style.color = colors[Math.floor(Math.random() * colors.length)]
-    span.style.fontSize = Math.random() * 90 + "px"
-    span.style.top = Math.random() * innerHeight + "px";
-    span.style.left = Math.random() * innerWidth  + "px" ;
-   
-    var section = document.getElementsByClassName("demoAlphabet")[0];
-
-    section.append(span);
-    setTimeout(() =>{
-        span.remove()
-    }, 3000)
+var russianStart = document.querySelector(".russianStart");
+russianStart.onclick = () => {
+    document.location = '../lessons/exerciseRu.html'
 }
 
-setInterval(createAlphabet, 100);
-
-
-var startButton = document.querySelector(".startButton");
-startButton.onclick = () => {
-    document.location = '../lessons/index.html'
+var englishStart = document.querySelector(".englishStart");
+englishStart.onclick = () => {
+    document.location = '../lessons/exerciseEn.html'
 }
+
+
+var y = document.querySelector(".y");
+y.onclick = () => {
+    window.location.href = 'https://www.youtube.com/channel/UCgoPupJNkZPnAUPJvtPasdw' 
+}
+var ins = document.querySelector(".in");
+ins.onclick = () => {
+    window.location.href = 'https://instagram.com/tojikacademy/' 
+}
+
 
