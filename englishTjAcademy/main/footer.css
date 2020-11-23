@@ -27,7 +27,7 @@
     transition: 0.5s ;
 }
 
-.footer .main .menu li{
+.footer .main .menu li, .footer .main  .sosials ul li {
     margin: 5px 0;
     list-style: none;
 }

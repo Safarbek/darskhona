@@ -224,7 +224,7 @@ function test10Fun(e) {
             if(index < tenTest.length) {
             if (Tests.checkIsEmptyDemoWord()) {
                 if (Tests.checkIsCorrect()) {
-                    demoButtonWord.innerHTML = `<span class='correctAnswer'>Офарин! Шумо дурст ҷавоб додед! <br> ${tenTest[index].question} </span>`;
+                    demoButtonWord.innerHTML = `<span class='correctAnswer'>Офарин дуруст!</span>`;
                     Tests.removeClass();
                     showAnswerButton.disabled = true;
                     nextQuestion.disabled = false

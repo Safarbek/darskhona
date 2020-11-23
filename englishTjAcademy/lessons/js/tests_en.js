@@ -340,13 +340,169 @@ export const questionsEn = [
         answer: "Ту чавон ҳасти"
     },
 
-
     {
         id: 45,
         type: "txt",
         question: "Your son`s name is Muhsin",
         answer: "Номи писари шумо Муҳсин аст"
-    }
+    },
+    {
+        id: 46,
+        type: "txt",
+        question: "What is your name?",
+        answer: "Номи шумо чист?"
+    },
+    {
+        id: 47,
+        type: "txt",
+        question: "My name is Sophia",
+        answer: "Номи ман София ҳаст"
+    },
+    {
+        id: 48,
+        type: "txt",
+        question: "I am Sophia",
+        answer: "Ман София ҳастам"
+    },
+    {
+        id: 49,
+        type: "txt",
+        question: "Where are you from?",
+        answer: "Шумо аз (аҳли)куҷо ҳастед"
+    },
+    {
+        id: 50,
+        type: "txt",
+        question: "I am from Tajikistan",
+        answer: "Ман аз Тоҷикистон ҳастам"
+    },
+    {
+        id: 51,
+        type: "txt",
+        question: "I come from Tajikistan",
+        answer: "Ман аз Тоҷикистон омадаам"
+    },
+
+    {
+        id: 52,
+        type: "txt",
+        question: "Where do you live?",
+        answer: "Шумо дар куҷо зиндаги мекунед?"
+    },
+
+    {
+        id: 53,
+        type: "txt",
+        question: "I live in Dushanbe",
+        answer: "Ман дар Душанбе зиндаги мекунам"
+    },
+
+    {
+        id: 54,
+        type: "txt",
+        question: "When is your birthday?",
+        answer: "Зодрузи шумо кадом руз ҳаст?"
+    },
+
+    {
+        id: 55,
+        type: "txt",
+        question: "My birthday is on January 1st",
+        answer: "Зодрузи ман якуми Январ мебошад"
+    },
+    {
+        id: 56,
+        type: "txt",
+        question: "How old are you?",
+        answer: "Шумо чан сола ҳастед"
+    },
+
+    {
+        id: 57,
+        type: "txt",
+        question: "I am 20 years old",
+        answer: "Ман 20 сола ҳастам"
+    },
+
+    {
+        id: 58,
+        type: "txt",
+        question: "I am 20 ",
+        answer: "Ман 20 сола ҳастам"
+    },
+
+    {
+        id: 59,
+        type: "txt",
+        question: "What is your phone number?",
+        answer: "My phone number is 235656"
+    },
+    {
+        id: 60,
+        type: "txt",
+        question: "What do you do?",
+        answer: "Шумо чи кор мекунед"
+    },
+    {
+        id: 61,
+        type: "txt",
+        question: "I am a student now",
+        answer: "Ман донишҷуй ҳастам айни ҳол"
+    },
+    {
+        id: 62,
+        type: "txt",
+        question: "What is your job?",
+        answer: "Шумо чи кора ҳастед"
+    },
+    {
+        id: 63,
+        type: "txt",
+        question: "I am unemployed at the moment",
+        answer: "Ман бекор ҳастам айни ҳол"
+    },
+    // {
+    //     id: 0,
+    //     type: "txt",
+    //     question: "",
+    //     answer: ""
+    // },
+
+    // {
+    //     id: 0,
+    //     type: "txt",
+    //     question: "",
+    //     answer: ""
+    // },
+
+    // {
+    //     id: 0,
+    //     type: "txt",
+    //     question: "",
+    //     answer: ""
+    // },
+
+    // {
+    //     id: 0,
+    //     type: "txt",
+    //     question: "",
+    //     answer: ""
+    // },
+
+    // {
+    //     id: 0,
+    //     type: "txt",
+    //     question: "",
+    //     answer: ""
+    // },
+
+    // {
+    //     id: 0,
+    //     type: "txt",
+    //     question: "",
+    //     answer: ""
+    // },
+
 
 
 
