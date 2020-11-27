@@ -1128,12 +1128,164 @@ export const questionsRu = [
         answer: "Ман ин ҷойро медонам"
     },
 
-    // {
-    //     id: 0,
-    //     type: "txt",
-    //     question: "",
-    //     correct2: null,
-    //     answer: ""
-    // },
+    {
+        id: 162,
+        type: "txt",
+        question: "Я хочу отправить деньги родителям",
+        correct2: "Я хочу деньги отправить родителям",
+        answer: "Ман мехоҳам ба волидонам пул фиристам"
+    },
+    
+    {
+        id: 163,
+        type: "txt",
+        question: "Я хочу купить телефон завтра",
+        correct2: "Я хочу телефон купить завтра",
+        answer: "Ман мехоҳам пагоҳ телефон харам"
+    },
+    
+    {
+        id: 164,
+        type: "txt",
+        question: "Я хочу открыть дверь",
+        correct2: null,
+        answer: "Ман мехоҳам дарро кушоя"
+    },
+    
+    {
+        id: 165,
+        type: "txt",
+        question: "Я хочу найти новую квартиру",
+        correct2: null,
+        answer: "Ман мехоҳам квартираи нав пайдо кунам"
+    },
+    
+    {
+        id: 166,
+        type: "txt",
+        question: "Я хочу вернуться",
+        correct2: null,
+        answer: "Ман мехоҳам баргардам"
+    },
+    
+    {
+        id: 167,
+        type: "txt",
+        question: "Я хочу пойти туда",
+        correct2: null,
+        answer: "Ман мехоҳам ба он ҷо равам"
+    },
+    
+    {
+        id: 168,
+        type: "txt",
+        question: "Я хочу понять это",
+        correct2: null,
+        answer: "Ман мехоҳам инро фаҳмам"
+    },
+    
+    {
+        id: 169,
+        type: "txt",
+        question: "Я хочу сделать это сейчас",
+        correct2: null,
+        answer: "Ман мехоҳам инро айниҳол иҷро кунам"
+    },
+    
+    {
+        id: 170,
+        type: "txt",
+        question: "Я хочу сделать это сегодня ",
+        correct2: null,
+        answer: "Ман мехоҳам имрӯз инро анҷом диҳам"
+    },
+    
+    {
+        id: 171,
+        type: "txt",
+        question: "Я хочу прочитать эту книгу",
+        correct2: null,
+        answer: "Ман мехоҳам ин китобро хонам"
+    },
+    
+    {
+        id: 172,
+        type: "txt",
+        question: "Я хочу выпить кофе",
+        correct2: null,
+        answer: "Ман мехоҳам қаҳва бинӯшам"
+    },
+    
+    {
+        id: 173,
+        type: "txt",
+        question: "Я хочу есть",
+        correct2: null,
+        answer: "Ман хӯрдан мехоҳам"
+    },
+    
+    {
+        id: 174,
+        type: "txt",
+        question: "Я хочу есть сейчас",
+        correct2: null,
+        answer: "Ман ҳозир хӯрок хӯрдан мехоҳам"
+    },
+    
+    {
+        id: 175,
+        type: "txt",
+        question: "Я хочу выучить Английский",
+        correct2: null,
+        answer: "Ман мехоҳам забони англисиро омӯзам"
+    },
+    
+    {
+        id: 176,
+        type: "txt",
+        question: "Я хочу пойти туда с тобой",
+        correct2: "Я хочу  туда пойти с тобой",
+        answer: "Ман мехоҳам бо ту ба он ҷо биравам"
+    },
+    
+    {
+        id: 177,
+        type: "txt",
+        question: "Я хочу знать этот язык",
+        correct2: null,
+        answer: "Ман мехоҳам ин забонро бидонам"
+    },
+    
+    {
+        id: 178,
+        type: "txt",
+        question: "Я хочу носить свои носки",
+        correct2: null,
+        answer: "Ман мехоҳам ҷӯробҳоямро пӯшам"
+    },
+    
+    {
+        id: 177,
+        type: "txt",
+        question: "Я хочу стать программист",
+        correct2: null,
+        answer: "Ман мехоҳам барномасоз шавам"
+    },
+    
+    {
+        id: 178,
+        type: "txt",
+        question: "Хочу купить квартиру в Mоскве",
+        correct2: null,
+        answer: "Мехоҳам дар Масква квартира харам"
+    },
+     
+    {
+        id: 178,
+        type: "txt",
+        question: "Я хочу начать свой бизнес",
+        correct2: null,
+        answer: "Ман мехоҳам тиҷорати худро оғоз кунам"
+    },
     
 ]

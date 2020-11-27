@@ -104,7 +104,7 @@ class Test {
     }
 
     toDoArray() {
-        var testSelf = this.question.question.split(" ");
+        var testSelf = this.question.question.replace("?", "").split(" ");
         return this.shuffle(testSelf);
     }
 
@@ -153,7 +153,7 @@ class Test {
             arr.push(value.innerText);
         })
         console.log(this.question.question);
-        var currect = JSON.stringify(this.question.question).trim(" ");
+        var currect = JSON.stringify(this.question.question).replace("?", "").trim(" ").toLowerCase();
         buttons = JSON.stringify(arr.join(' '));
         
         
@@ -166,7 +166,6 @@ class Test {
                 return false
             } else {
                 var currect2 = JSON.stringify(this.question.correct2).replace("?", "").toLowerCase();
-                var buttons2 = buttons.replace("?", "").toLowerCase();
                 console.log(currect2, buttons2);
                if(currect2 == buttons2){
                    return true;
