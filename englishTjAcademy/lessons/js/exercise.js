@@ -10,7 +10,7 @@ const navSlide = () => {
 
         nav.classList.toggle("nav-active")
 
-
+        hideOverflov()
         list.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = ''
@@ -31,6 +31,9 @@ const navSlide = () => {
 navSlide()
 
 
+function hideOverflov() {
+    document.body.classList.toggle("overHide");
+}
 
 // section work
 const section = document.querySelector('.work');
@@ -136,7 +139,7 @@ class Test {
 
     checkIsEmptyDemoWord() {
         if (demoButtonWord.hasChildNodes()) {
-            massege.innerText = "Лутфан ҳами калимаҳоро интихоб кунед"
+            massege.innerText = "Лутфан ҳамаи калимаҳоро интихоб кунед"
             setTimeout(() => massege.innerText = '', 3000);
             return false;
         }
@@ -149,12 +152,26 @@ class Test {
         Array.from(buttons).forEach((value) => {
             arr.push(value.innerText);
         })
-        var currect = JSON.stringify(this.question.question);
+        console.log(this.question.question);
+        var currect = JSON.stringify(this.question.question).trim(" ");
         buttons = JSON.stringify(arr.join(' '));
+        
+        
         if (currect == buttons) {
             return true;
         } else {
-            return false;
+            
+            if(this.question["correct2"] == undefined){
+                console.log("not");
+                return false
+            } else {
+                var currect2 = JSON.stringify(this.question.correct2).replace("?", "").toLowerCase();
+                var buttons2 = buttons.replace("?", "").toLowerCase();
+                console.log(currect2, buttons2);
+               if(currect2 == buttons2){
+                   return true;
+               }
+            }
         }
     }
 
@@ -233,7 +250,7 @@ function test10Fun(e) {
                     correct++
                 } else {
                     demoButtonWord.innerHTML = `<span style='color: red;' class='correctAnswer'>
-                    Шумо нодуруст ҷавоб додед! <br>Ҷавоби дуруст: 
+                    Нодуруст! <br>Ҷавоби дуруст: 
                     <span style='color: teal;'>${tenTest[index].question} </span>
                      </span>`;
                       Tests.removeClass();

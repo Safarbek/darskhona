@@ -461,43 +461,334 @@ export const questionsEn = [
         question: "I am unemployed at the moment",
         answer: "Ман бекор ҳастам айни ҳол"
     },
-    // {
-    //     id: 0,
-    //     type: "txt",
-    //     question: "",
-    //     answer: ""
-    // },
+    {
+        id: 64,
+        type: "txt",
+        question: "I am a happy person",
+        answer: "Ман одами хушҳол(хушбахт) ҳастам"
+    },
+
+    {
+        id: 65,
+        type: "txt",
+        question: "He is a good lawyer",
+        answer: "У як адвокати хуб аст"
+    },
+
+    {
+        id: 66,
+        type: "txt",
+        question: "We are workers",
+        answer: "Мо коргар ҳастем"
+    },
+
+    {
+        id: 67,
+        type: "txt",
+        question: "Am I a happy person?",
+        answer: "Оё ман одами хушбахт ҳастам?"
+    },
+
+    {
+        id: 68,
+        type: "txt",
+        question: "You are our students",
+        answer: "Шумо донишҷуёни мо ҳастед"
+    },
+
+    {
+        id: 69,
+        type: "txt",
+        question: "Are you our students?",
+        answer: "Оё шумо донишҷуёни мо ҳастед"
+    },
+
+
+    {
+        id: 70,
+        type: "txt",
+        question: "I am from England",
+        answer: "Ман аз Англия ҳастам"
+    },
+
+
+    {
+        id: 71,
+        type: "txt",
+        question: "He is my friend",
+        answer: "У дусти ман аст"
+    },
+
+
+    {
+        id: 72,
+        type: "txt",
+        question: "It is a beautiful place",
+        answer: "Ин ҷойи зебо аст"
+    },
+
+
+    {
+        id: 73,
+        type: "txt",
+        question: "They are at home now",
+        answer: "Онҳо дар хона мебошанд айни ҳол"
+    },
+
+
+    {
+        id: 74,
+        type: "txt",
+        question: "Are they at home now?",
+        answer: "Оё онҳо дар хона мебошанд айни ҳол"
+    },
+
+
+    {
+        id: 75,
+        type: "txt",
+        question: "London is a large city",
+        answer: "Лондон шаҳри калон аст"
+    },
+
+
+    {
+        id: 76,
+        type: "txt",
+        question: "Is Dushanbe a large city?",
+        answer: "Оё Душанбе шаҳри калон аст?"
+    },
+
+
+    {
+        id: 77,
+        type: "txt",
+        question: "She is a secretary",
+        answer: "Вай котиба ҳаст"
+    },
+
+
+    {
+        id: 78,
+        type: "txt",
+        question: "It is a car",
+        answer: "Ин мошин аст"
+    },
+
+
+    {
+        id: 79,
+        type: "txt",
+        question: "She is an artist",
+        answer: "Вай расом аст"
+    },
+
+
+    {
+        id: 80,
+        type: "txt",
+        question: "She is single",
+        answer: "Вай хонадор нест"
+    },
+
+
+    {
+        id: 81,
+        type: "txt",
+        question: "Her eyes are blue",
+        answer: "Чашмони вай кабуд аст"
+    },
+
+
+    {
+        id: 82,
+        type: "txt",
+        question: "We are in London",
+        answer: "Мо дар Лондон мебошем"
+    },
+
+
+    {
+        id: 83,
+        type: "txt",
+        question: "My mother is a worker",
+        answer: "Модари ман коргар мебошад"
+    },
+
+
+    {
+        id: 84,
+        type: "txt",
+        question: "Is my mother a worker?",
+        answer: "Оё модари ман коргар мебошад"
+    },
+
+
+    {
+        id: 85,
+        type: "txt",
+        question: "Your father is a farmer",
+        answer: "Падари шумо фермер(деҳқон) аст"
+    },
+
+
+    {
+        id: 86,
+        type: "txt",
+        question: "Is Your father a farmer?",
+        answer: "Оё падри шумо фермер ҳаст"
+    },
+
+
+    {
+        id: 87,
+        type: "txt",
+        question: "Marina is a doctor",
+        answer: "Марина духтур мебошад"
+    },
+
+
+    {
+        id: 88,
+        type: "txt",
+        question: "Is Madina a doctor?",
+        answer: "Оё мадина духтур мебошад?"
+    },
+
+
+    {
+        id: 89,
+        type: "txt",
+        question: "This book is very interesting",
+        answer: "Ин китоб бисёр ҷолиб аст"
+    },
+
+
+    {
+        id: 90,
+        type: "txt",
+        question: "Is this book  interesting?",
+        answer: "Оё ин китоб ҷолиб аст?"
+    },
+
+
+    {
+        id: 91,
+        type: "txt",
+        question: "He is your brother",
+        answer: "У падари шумо аст"
+    },
+
+
+    {
+        id: 92,
+        type: "txt",
+        question: "Is he your brother?",
+        answer: "Оё у падари шумо аст?"
+    },
+
+
+    {
+        id: 93,
+        type: "txt",
+        question: "They are economists",
+        answer: "Онҳоо экономист мебошанд"
+    },
+
+
+    {
+        id: 94,
+        type: "txt",
+        question: "I want to go there",
+        answer: "Ман мехоҳам ба онҷо равам"
+    },
+
+
+    {
+        id: 95,
+        type: "txt",
+        question: "I want to  visit this country",
+        answer: "Ман мехоҳам ба ин давлат сафар кунам"
+    },
+
+
+    {
+        id: 96,
+        type: "txt",
+        question: "Sorry, I did not understand",
+        answer: "Sorry, I did not understand"
+    },
+
+
+    {
+        id: 97,
+        type: "txt",
+        question: "Can you repeat?",
+        answer: "Метавонед такрор кунед?"
+    },
+
+
+    {
+        id: 98,
+        type: "txt",
+        question: "Nave a nice day",
+        answer: "Рузи хуб дошта боши"
+    },
+
+
+    {
+        id: 99,
+        type: "txt",
+        question: "Ман ин хурокро дуст медорам",
+        answer: "Ман ин хурокро дуст медорам"
+    },
+
+
+    {
+        id: 100,
+        type: "txt",
+        question: "They like this shop",
+        answer: "Онҳо ин мағозаро дуст медоранд"
+    },
+
+
+    {
+        id: 101,
+        type: "txt",
+        question: "Why do you learn English?",
+        answer: "Барои чи ту Англисиро мехони?"
+    },
+
+    {
+        id: 102,
+        type: "txt",
+        question: "When does he come home?",
+        answer: "Кай у ба хона меоя?"
+    },
+
+    {
+        id: 103,
+        type: "txt",
+        question: "She doesn`t like lendin her books",
+        answer: "У дуст намедорад китобҳояшро карз диҳад"
+    },
+
+    {
+        id: 104,
+        type: "txt",
+        question: "When did she come home?",
+        answer: "Кай вай ба хона омад?"
+    },
+
+    {
+        id: 105,
+        type: "txt",
+        question: "If you need a sweater I can lend you one",
+        answer: "Агар шумо ба свитер ниёз дошта бошед ман метавонам якта ба шумо қарз диҳам"
+    },
 
     // {
-    //     id: 0,
-    //     type: "txt",
-    //     question: "",
-    //     answer: ""
-    // },
-
-    // {
-    //     id: 0,
-    //     type: "txt",
-    //     question: "",
-    //     answer: ""
-    // },
-
-    // {
-    //     id: 0,
-    //     type: "txt",
-    //     question: "",
-    //     answer: ""
-    // },
-
-    // {
-    //     id: 0,
-    //     type: "txt",
-    //     question: "",
-    //     answer: ""
-    // },
-
-    // {
-    //     id: 0,
+    //     id: ,
     //     type: "txt",
     //     question: "",
     //     answer: ""

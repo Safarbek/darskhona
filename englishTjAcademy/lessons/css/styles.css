@@ -39,6 +39,9 @@ body{
     background-color: rgba(253, 247, 247, 0.842);
 }
 
+.overHide{
+    overflow: hidden;
+}
 
 nav{
     display: flex;

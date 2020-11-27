@@ -6,7 +6,7 @@ const navSlide = () => {
     burger.addEventListener("click", () =>{ 
         
         nav.classList.toggle("nav-active")
-      
+        hideOverflov()
 
         list.forEach((link, index) => {
             if(link.style.animation){
@@ -26,6 +26,9 @@ const navSlide = () => {
    
 }
 navSlide()
+function hideOverflov() {
+    document.body.classList.toggle("overHide");
+}
 
 
 function createRadnomLikes() {

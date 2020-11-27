@@ -17,6 +17,9 @@
     align-items: center;
     height: auto;
 }
+.overHide{
+    overflow: hidden;
+}
 
 .contVideos .video h2{
     margin: 5px 10px;

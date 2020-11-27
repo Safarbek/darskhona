@@ -530,7 +530,7 @@ export const questionsRu = [
     {
         id: 78,
         type: "txt",
-        question: "Извините, можете подсказать где ",
+        question: "Извините, можете подсказать где",
         correct2: null,
         answer: "Узр, метавонед гуйед ки дар куҷост шакар?"
     },
@@ -924,7 +924,7 @@ export const questionsRu = [
         id: 136,
         type: "txt",
         question: "Я подожду на улице",
-        correct2: null,
+        correct2: "Я на улице подожду",
         answer: "Ман дар берун(куча) интизор мешавам"
     },
          
