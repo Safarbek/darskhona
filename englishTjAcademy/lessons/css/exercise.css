@@ -8,7 +8,7 @@
 }
 
 body{
-    min-width: 100vh;
+    min-height: 100vh;
     background-color: rgb(230, 255, 245);
 }
 .overHide{
@@ -251,6 +251,9 @@ nav{
     color: rgb(5, 5, 5);
 }
 
+.work .next button:hover{
+}
+
 
 
 .correctAnswer{
@@ -267,7 +270,7 @@ nav{
 }
 
 @media screen and (max-width: 768px){
-    
+
     .nav-links{
         position: absolute;
         left: 0;

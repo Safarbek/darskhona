@@ -152,11 +152,9 @@ class Test {
         Array.from(buttons).forEach((value) => {
             arr.push(value.innerText);
         })
-        console.log(this.question.question);
         var currect = JSON.stringify(this.question.question).replace("?", "").trim(" ").toLowerCase();
-        buttons = JSON.stringify(arr.join(' '));
-        
-        
+        buttons = JSON.stringify(arr.join(' ')).replace("?", "").trim(" ").toLowerCase();
+        console.log(buttons, currect);
         if (currect == buttons) {
             return true;
         } else {
@@ -165,9 +163,10 @@ class Test {
                 console.log("not");
                 return false
             } else {
+               
                 var currect2 = JSON.stringify(this.question.correct2).replace("?", "").toLowerCase();
-                console.log(currect2, buttons2);
-               if(currect2 == buttons2){
+                console.log(currect2, buttons);
+               if(currect2 == buttons){
                    return true;
                }
             }
