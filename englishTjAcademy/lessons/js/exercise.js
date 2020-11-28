@@ -104,7 +104,7 @@ class Test {
     }
 
     toDoArray() {
-        var testSelf = this.question.question.replace("?", "").split(" ").trim(" ");
+        var testSelf = this.question.question.replace("?", "").trim(" ").split(" ");
         return this.shuffle(testSelf);
     }
 
