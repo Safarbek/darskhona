@@ -739,7 +739,7 @@ export const questionsEn = [
     {
         id: 99,
         type: "txt",
-        question: "Ман ин хурокро дуст медорам",
+        question: "I like this food",
         answer: "Ман ин хурокро дуст медорам"
     },
 

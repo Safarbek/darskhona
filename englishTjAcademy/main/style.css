@@ -103,12 +103,12 @@ nav{
 .description button{
     font-size: 25px;
     padding: 20px 50px;
-    background-color: #f5feff;
+    background-color: #fdfdfd;
     cursor: pointer;
-    color: rgb(0, 160, 209);
+    color: rgb(0, 198, 212);
     margin-top: 15px;
     outline: none;
-    box-shadow: 2px 2px 10px rgb(107, 0, 80);
+    box-shadow: 2px 2px 10px rgb(139, 1, 19);
     border: 0.4px solid rgb(30, 126, 155);
     border-radius: 5px;
     transition: 0.5s ease-out;
