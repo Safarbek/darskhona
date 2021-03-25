@@ -10,11 +10,9 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-
-.overHide{
-    overflow: hidden;
+.height {
+    height: 75vh;
 }
-
 nav{
     display: flex;
     justify-content: space-around;
@@ -103,19 +101,18 @@ nav{
 .description button{
     font-size: 25px;
     padding: 20px 50px;
-    background-color: #fdfdfd;
     cursor: pointer;
-    color: rgb(0, 198, 212);
+    color: rgb(251, 251, 251);
     margin-top: 15px;
     outline: none;
-    box-shadow: 2px 2px 10px rgb(139, 1, 19);
-    border: 0.4px solid rgb(30, 126, 155);
+    background: #11a099;
     border-radius: 5px;
     transition: 0.5s ease-out;
+    border: 1px solid#018680;
+    box-shadow: 0.2px 0.2px 3px black;
 }
 .description button:hover{
-    box-shadow: 2px 2px 15px rgb(226, 10, 2);
-    background: #fff;
+    background: #11a099be;
 }
 
 .sosial{
@@ -221,7 +218,9 @@ nav{
         transition: transform 0.5s ease-in;
         z-index: 3;
     }
-
+    .height {
+        height: auto;
+    }
     .nav-links li{
         opacity: 0;
     }
@@ -238,18 +237,18 @@ nav{
         width: 100%;
         max-width:100%;
     }  
-.description h2{
+    .description h2{
     font-size: 30px;
     line-height: normal;
-}
-.description span{
+    }
+    .description span{
     font-size: 24px;
     margin-bottom: 5px;
-}
-.description p{
+    }
+    .description p{
     font-size: 20px;
     line-height: 1.8rem;
-}
+    }
 
 .description button{
     font-size: 20px;

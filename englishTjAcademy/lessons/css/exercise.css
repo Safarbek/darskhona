@@ -14,7 +14,9 @@ body{
 .overHide{
     overflow: hidden;
 }
-
+.height {
+    height: 75vh;
+}
 
 nav{
     display: flex;
