@@ -290,7 +290,10 @@ nav{
     .nav-links li{
         opacity: 0;
     }
-
+   
+    .height{
+    height: auto;
+}
 
 
     .burger{
