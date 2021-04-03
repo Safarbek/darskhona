@@ -147,11 +147,10 @@ nav{
 
 .alphabet .container-table h1:first-child{
     font-size: 25px;
-    color: rgb(5, 3, 107);
+    color: #11a099;
     text-transform: uppercase;
     font-weight: bold;
     text-overflow: ellipsis;
-    text-shadow: 2px 1px 5px rgb(0, 0, 0) ;
 }
 .alphabet .container-table h1{
     font-size: 20px;
